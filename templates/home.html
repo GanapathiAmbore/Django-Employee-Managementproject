@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+{% if user.is_authenticated %}
+ <center><h1 style="color: blue">Hi User welcome to our website!!</h1></center>
+  <p><a href="{% url 'logout' %}">logout</a></p>
+{% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">login</a>
+{% endif %}
+
+
+
+
+
+
+
+<body>
+<table id="customers">
+    <tr>
+        <th>Employee Name</th>
+        <th>Employee Gender</th>
+        <th>Employee Department</th>
+        <th>Employee Date of Joining </th>
+        <th>Employee Email </th>
+        <th>Employee Phone_number</th>
+        <th>Employee Address</th>
+        <th>Employee Image</th>
+    </tr>
+</thead>
+    <tbody>
+    {% for employee in object_list%}
+    <tr>
+        <td>{{ employee.Name }}</td>
+        <td>{{ employee.Gender }}</td>
+        <td>{{ employee.Department }}</td>
+        <td>{{ employee.DateofJoining}}</td>
+        <td>{{ employee.Email}}</td>
+        <td>{{ employee.Phone_number}}</td>
+        <td>{{ employee.Address}}</td>
+        <td><img src="{{ employee.Image.url}}" alt="{{ employee.Image }}"width="100" height="100"></td>
+    </tr>
+
+{% endfor %}</tbody>
+</table>
+<br>
+</body>
+</html>
