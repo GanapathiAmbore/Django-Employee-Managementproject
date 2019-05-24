@@ -10,6 +10,8 @@
   {% csrf_token %}
   {{ form.as_p }}
   <button type="submit">Login</button>
+    <h2 style="color: blueviolet">Forgot password click below</h2>
+    <a href="{% url 'password_change' %}">Password change here</a>
 </form>
 <h1 style="color: red">Don't have account Register Here!!</h1>
 <a href="{% url 'signup' %}">Register page</a>

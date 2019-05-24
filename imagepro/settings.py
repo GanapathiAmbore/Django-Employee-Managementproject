@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'imageapp.apps.ImageappConfig',
     'phonenumber_field',
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [

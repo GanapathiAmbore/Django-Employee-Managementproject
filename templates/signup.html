@@ -6,11 +6,13 @@
 </head>
 <body>
 <h1>Welcome to Register Page!</h1>
-<form>
-    {{ form.as_p }}
+{% load crispy_forms_tags %}
+<h2>Sign up</h2>
+  <form method="post">
     {% csrf_token %}
-    <input type="submit" value="Register">
-</form>
+    {{ form|crispy }}
+    <button type="submit">Sign up</button>
+  </form>
 <h1 style="color: blueviolet">Already Have account login here!!</h1>
 <a href="{% url 'login' %}">Login page</a>
 </body>
