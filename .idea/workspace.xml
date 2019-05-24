@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/templates/registration/login.html" line="15" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="90477923-02de-4db8-818f-c58539ffb946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/imageapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/imageapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagepro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/imagepro/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media/images/0.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/media/images/0_1.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/media/images/0_L4GxHiZ.jpeg" beforeDir="false" />
@@ -25,14 +13,9 @@
       <change beforePath="$PROJECT_DIR$/media/images/Ganapathi_PP2_uLvTwb9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/media/images/Laxmipathi.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/media/images/VInay.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/images.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/images.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media/images/images_VF5xLci.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/media/images/sri.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/media/images/srinivas.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -243,9 +226,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -298,16 +282,15 @@
       <workItem from="1558516834949" duration="13455000" />
       <workItem from="1558587510324" duration="14262000" />
       <workItem from="1558673097181" duration="1826000" />
-      <workItem from="1558683667898" duration="1828000" />
+      <workItem from="1558683667898" duration="2436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31371000" />
+    <option name="totallyTimeSpent" value="31979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-4" width="1303" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26173428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -323,7 +306,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32884902" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="manage.py@imagepro" order="10" visible="true" weight="0.32884902" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4289985" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.11773472" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -375,11 +358,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/imageapp/admin.py">
